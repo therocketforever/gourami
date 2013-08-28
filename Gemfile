@@ -16,7 +16,10 @@ group :development do
   gem "pry-stack_explorer"
 end
 
-group :testing do
+group :test do
+  gem "cucumber"
+  gem "rspec"
+  gem "capybara"
 end
 
 group :production do
