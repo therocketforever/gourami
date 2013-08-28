@@ -5,7 +5,7 @@ ruby "2.0.0"
 gem "thin"
 gem "sinatra"
 gem "grape"
-gem "spockets"
+gem "sprockets"
 gem "slim"
 gem "sass"
 
@@ -16,7 +16,10 @@ group :development do
   gem "pry-stack_explorer"
 end
 
-group :testing do
+group :test do
+  gem "cucumber"
+  gem "rspec"
+  gem "capybara"
 end
 
 group :production do
