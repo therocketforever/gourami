@@ -5,7 +5,7 @@ ruby "2.0.0"
 gem "thin"
 gem "sinatra"
 gem "grape"
-gem "spockets"
+gem "sprockets"
 gem "slim"
 gem "sass"
 

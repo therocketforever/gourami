@@ -10,3 +10,5 @@ Environment.append_path 'lib/assets/img'
 Environment.append_path 'lib/public'
 
 run Rack::Cascade.new [Environment, Application]
+
+binding.pry
