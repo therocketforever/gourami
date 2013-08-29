@@ -15,6 +15,10 @@ class Application < Sinatra::Base
     slim :index
   end
 
+  get '/pry' do
+    binding.pry
+  end
+
 end
 
 #binding.pry

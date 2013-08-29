@@ -2,12 +2,15 @@ source 'https://rubygems.org'
 
 ruby "2.0.0"
 
+require "open-uri"
+
 gem "thin"
 gem "sinatra"
 gem "grape"
 gem "sprockets"
 gem "slim"
 gem "sass"
+gem "foreman"
 
 group :development do
   gem "pry"
