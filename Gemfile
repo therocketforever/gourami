@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 ruby "2.0.0"
 
+require "open-uri"
+
 gem "thin"
 gem "sinatra"
 gem "grape"
