@@ -19,6 +19,12 @@ class Application < Sinatra::Base
     binding.pry
   end
 
+  get '/diag' do
+    binding.pry
+    @diag = JSON.parse(open("http://gourami.dev/api/statuses/ping_time").read).mash
+    binding.pry
+  end
+
 end
 
 #binding.pry

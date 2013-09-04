@@ -3,8 +3,10 @@ source 'https://rubygems.org'
 ruby "2.0.0"
 
 require "open-uri"
+require "json"
 
 gem "thin"
+gem "unicorn"
 gem "sinatra"
 gem "grape"
 gem "sprockets"
